@@ -49,7 +49,7 @@ The project is created using Spring Boot as backend and Angular as frontend.
  ### Working
  The backend is compiled using IntelliJ and runs on localhost:8080.
  The frontend runs on port 4200, and the requests are redirected from 4200 to 8080(however, there is an error in it).
- The frontend is compiled in angular-ci folder, using command npm-start on cmd.
+ The frontend is compiled in src/main/angular-ci folder, using command npm-start on cmd.
  
  ### Final Note:
  > Thank you for the opportunity, it was a great experience to participate and create this application.
