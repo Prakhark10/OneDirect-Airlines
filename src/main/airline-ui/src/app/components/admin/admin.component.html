@@ -1,0 +1,22 @@
+<div class="container">
+  <table class="table table-bordered table-inverse">
+    <tr>
+      <th>Flight Number</th>
+      <th>Flight Name</th>
+    </tr>
+    <tr *ngFor="let airline of airlines">
+      <td>
+        {{airline.arrival}}
+      </td>
+      <td>
+        {{airline.departure}}
+      </td>
+      <td>
+        {{airline.duration}}
+      </td>
+      <td class="text-right">
+        {{airline.price}}
+      </td>
+    </tr>
+  </table>
+</div>
